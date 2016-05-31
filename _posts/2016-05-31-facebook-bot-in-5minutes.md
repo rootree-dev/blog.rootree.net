@@ -7,7 +7,7 @@ image: bot5min-og.png
 
 제목이 조금 자극적이지만 준비만 되어있다면 약간 과장을 섞어 5분이면 봇 하나를 만들 수 있다. ~~그렇다고 어디가서 5분이면 만들어요! 라고 말하지는 말자~~
 
-아래의 예제는 [messenger-bot](https://github.com/remixz/messenger-bot)의 Readme 예제를 사용하였고 [Github](https://github.com/rootree-dev/bot-5min)에 Example 소스코드를 올려두었다.
+아래의 예제는 [messenger-bot](https://github.com/remixz/messenger-bot)의 Readme 예제를 사용하였고 [Github에 Example 소스코드](https://github.com/rootree-dev/bot-5min)를 올려두었다.
 
 # 준비사항
 
@@ -26,9 +26,9 @@ image: bot5min-og.png
 
 # 페이스북 세팅하기(1)
 
-페이스북에서 우측상단의 화살표를 클릭하여 페이지를 생성한다. 아래 이미지 대로 하면 된다.
-
 ![facebook setting #1](/public/bot5min-fb1.png)
+
+페이스북에서 우측상단의 화살표를 클릭하여 페이지를 생성한다. 아래 이미지 대로 하면 된다.
 
 ![facebook setting #2](/public/bot5min-fb2.png)
 
@@ -40,7 +40,7 @@ Setting에 가서 App secret 아래의 show버튼을 누른 후 어딘가에 복
 
 ![facebook setting #4](/public/bot5min-fb4.png)
 
-좌측에 보면 Messenger밑에 Setting을 눌러 Page Access Token을 생성하고 어딘가에 저장해둔다.
+좌측 메뉴의 Messenger 탭 밑에 Setting을 눌러 Page Access Token을 생성하고 어딘가에 저장해둔다.
 
 # 코드 생성하기
 
@@ -129,7 +129,7 @@ $ git commit -am "make komerica great!"
 $ git push heroku master
 ```
 
-잠시 기다린후 자신의 Heroku url에 접속해보자. `{"status": "ok"}`라고 나온다면 성공!
+잠시 기다린후 자신의 Heroku URL로 접속해보자. `{"status": "ok"}`라고 나온다면 성공!
 
 ```
 https://<Heroku App 이름>.herokuapp.com/_status
