@@ -79,7 +79,7 @@ bot.on('message', (payload, reply) => {
     reply({ text }, (err) => {
       if (err) throw err
 
-      console.log(`${profile.first_name} ${profile.last_name}님이 요렇게 말했다: ${text}`)
+      console.log(`${profile.first_name} ${profile.last_name}: ${text}`)
     })
   })
 })
@@ -145,7 +145,7 @@ https://<Heroku App 이름>.herokuapp.com/_status
 
 세팅이 끝났다면 이제 만들어둔 페이지에 메세지를 보내본다. 참고로 App review를 받기전까지는 개발자로 등록되지 않은 사람들은 페이지에 메세지를 보내도 답변을 받을 수 없다.
 
-![Oops](/public/bot5min-final)
+![Oops](/public/bot5min-final.png)
 
 더 발전을 시키고자 하면 [messenger-bot](https://github.com/remixz/messenger-bot) 패키지와 [Messenger platform](https://developers.facebook.com/docs/messenger-platform/implementation) 문서를 읽으면 가능하다.
 
